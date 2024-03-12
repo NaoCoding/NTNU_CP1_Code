@@ -1,6 +1,7 @@
-# 2023-NTNU-CP Code
+# 2023-NTNU-CP1 Code
 ```
-This repository is all about CP courses for freshman from NTNU.
+This repository is all about CP1(Computer Programming 1 aka 程設一)
+courses for freshman from NTNU.
 All of the code are published after the course was ended,
 so don't afraid about cheating issues.
 
