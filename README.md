@@ -16,7 +16,7 @@ Hw1 : 20 20 15 20 18 5, sum : 98/105
 
 Hw2 : 20 18 20 18 18 5, sum : 99/105
 
-Hw3 : 14 17 20 20 20 0 0 (forget to upload bonus....) , sum : 91/110
+Hw3 : 14 17 20 20 20 0 0 (forgot to upload bonus....) , sum : 91/110
 
 Midterm : 20 20 13 8 12 5, sum : 78/105
 
