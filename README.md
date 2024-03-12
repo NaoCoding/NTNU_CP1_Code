@@ -1,13 +1,15 @@
 # 2023-NTNU-CP1 Code
 ```
-This repository is all about CP1(Computer Programming 1 aka 程設一)
-, which is the course for freshman to learn how to program in C from NTNU.
+This repository is all about CP1(Computer Programming 1 aka 程設一),
+which is the course for freshman to learn how to program in C from NTNU.
 All of the code are published after the semester was ended,
 so don't afraid about cheating issues.(However, it is forbidden to use my code in future's CP1).
 
+Thanks all TAs and neokent for giving us a fun and memorable course.
+
 There are five homework and two online exam during CP1 in 2023 Fall Semester.
 And below are my scores, questions which I didn't get full score should not
-consider my file as best/good answer. Some homeworks was fun or special,
+consider my file as best/good answer. Some homeworks were fun or special,
 such as diceroller in hw3, I made a gtk user interface.
 
 Hw1 : 20 20 15 20 18 5, sum : 98/105
