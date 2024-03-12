@@ -1,0 +1,14 @@
+	I searched stackoverflow and I consider that while we add ".IGNORE:" at the beginning of the makefile, 
+we can easily ignore all the errors and compile all the file even when some of them are failed to compile. For 
+example, if we add ".IGNORE:" in the original makefile.
+	
+.IGNORE:	
+all:
+	gcc a.c -o a 
+	gcc b.c -o b 
+
+
+	With ".IGNORE:", we can easily compile b.c even when a.c is failed to compile. Although the a.c will not be 
+	compiled successfully since a.c possess some problems or issues, the b.c can still be compiled as long as it 
+	has no any problems. Therefore, I consider that the answer will be adding ".IGNORE:" in the front of the 
+	makefile. 

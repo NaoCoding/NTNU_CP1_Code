@@ -1,0 +1,60 @@
+Student ID: 41247001S
+
+How to Compile my code:
+
+Except hw0305, all of my code can be made by makefile.
+hw0305 can be compiled by makefile too after
+installing following required modules.
+
+Requirements for hw0305:
+
+1. C GTK module (For GUI)
+sudo apt-get install libgtk-3-dev
+2. C Canberra GTK module (Some extention for GUI)
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module -y
+
+What to do after makefile:
+
+Just open my code in the terminal.(./hw0305)
+
+I recommend run my hw0305 in Ubuntu,
+since I didn't test my graphic user interface
+in other os. 
+
+I also recommend to setting the resolution of Ubuntu to 1920x1080.
+Since the resolution may affect how GUI looks like.
+
+About hw0305:
+
+I used char[] in order to change the scene and button's label in hw0305.
+I consider that it is valid since I didn't use char[] for calculating the dice.
+char[] only for user interface and I have asked TA.
+
+You can choose how many dice you want, and everything mentioned in the hw03 
+without typing any words. Instead, all TA need to do is to click the button.
+(You can also choose the button by pressing Tab and Enter)
+I consider that it will be much more interesting instead of typing the command.
+
+There's also a small story in the application before the game start.
+(I also create the skip story button, and it will skip the story after click it twice. )
+(It is designed to prevent the misclicking, and I consider I did a great job at that.)
+(Increasing user's expereince.)
+
+I also make some debugs, which will forbid the user the choose every dice. Instead,
+you can not choose any dice after you have choosed the certain number of dice the user set.
+You can unchoose the dice by click it again.
+
+The sum of highest dice to save and the lowest and you kept cannot be more than the total number of dice. 
+And don't worry, the system will auto prevent this kinds of bugs or wrong inputs.
+Therefore, don't feel strange when you cannot add more dice to keep or highest and lowest,
+It may because the sum of these conditions has been equals to the number of dices,
+so the system will forbid you to add more.
+(This may be the only and best way to prevent wrong input, while the GUI cannot return wrong input message
+to users and TAs)
+
+You can also easily choose which dice you want with dice buttons.
+I hope it can increase the expereince of testing hw0305 and give me a good score XD.
+
+
+
+
